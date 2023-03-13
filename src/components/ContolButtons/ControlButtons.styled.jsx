@@ -15,8 +15,9 @@ const CtrlBtn = styled.button`
   justify-content: center;
   align-items: center;
 
-  /* transition: all 250ms linear; */
-  transition-duration: 250ms;
+  box-shadow: 0 0 0 #48665a7f;
+  transition: all 250ms linear;
+  /* transition-duration: 250ms; */
 
   :active {
     box-shadow: 0 0 10px #48665a7f;
