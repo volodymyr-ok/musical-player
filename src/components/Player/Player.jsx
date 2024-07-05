@@ -20,15 +20,15 @@ const Player = () => {
   const [songIndex, setSongIndex] = useState(0);
   const { cover, artist, name, path } = songs[songIndex] || {};
 
-  const time = (t) => {
-    let min = Math.floor(t / 60);
-    if (min < 10) min = "0" + min;
+  // const time = (t) => {
+  //   let min = Math.floor(t / 60);
+  //   if (min < 10) min = "0" + min;
 
-    let sec = Math.floor(t % 60);
-    if (sec < 10) min = "0" + sec;
+  //   let sec = Math.floor(t % 60);
+  //   if (sec < 10) min = "0" + sec;
 
-    return min + ":" + sec;
-  };
+  //   return min + ":" + sec;
+  // };
 
   return (
     <>

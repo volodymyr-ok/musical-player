@@ -4,7 +4,7 @@ import {
   BsSkipStartFill,
   BsFillSkipEndFill,
   BsFillPlayFill,
-  BsPauseFill,
+  // BsPauseFill,
 } from "react-icons/bs";
 import { songs } from "../../helpers/songsData";
 
